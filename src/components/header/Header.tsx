@@ -1,17 +1,26 @@
 import React from "react";
-import Home from "./Home";
-import Logo from "./Logo";
-import SignIn from "./SignIn";
-import SignUp from "./SignUp";
+import { Link } from "react-router-dom";
 
 const Header: React.FunctionComponent = () => {
   return (
     <div className="header">
-      <Logo />
-      <nav className="menu">
-        <Home />
-        <SignIn />
-        <SignUp />
+      <Link to="/" className="logo">
+        conduit
+      </Link>
+      <nav>
+        <ul className="menu">
+          <li>
+            <Link to="/" className="home">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/login">Sign In</Link>
+          </li>
+          <li>
+            <Link to="/register">Sign up</Link>
+          </li>
+        </ul>
       </nav>
     </div>
   );

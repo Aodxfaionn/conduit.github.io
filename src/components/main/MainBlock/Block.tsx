@@ -1,12 +1,16 @@
 import React from "react";
 import Tags from "./Tags";
 import Articles from "./Articles";
+import Title from "./Title";
 
 const Block: React.FunctionComponent = () => {
   return (
-    <div className="block">
-      <Articles />
-      <Tags />
+    <div>
+      <Title />
+      <div className="block">
+        <Articles />
+        <Tags />
+      </div>
     </div>
   );
 };
