@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Tags from "./Tags";
 import Articles from "./Articles";
 import Title from "./Title";
+import Pagination from "./Pagination";
 
 const Block: React.FunctionComponent = () => {
   return (

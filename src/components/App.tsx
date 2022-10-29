@@ -2,9 +2,9 @@ import React from "react";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import "../styles.scss";
 import Header from "./header/Header";
-import Block from "./main/MainBlock/Block";
-import SignIn from "./main/SignIn";
-import SignUp from "./main/SignUp";
+import Block from "./main/MainBlock/TextBlock/Block";
+import SignIn from "./main/MainBlock/User/SignIn";
+import SignUp from "./main/MainBlock/User/SignUp";
 
 function App() {
   return (
