@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test-conduit.github.io/static/css/main.c3cf32d8.css",
+    "main.js": "/test-conduit.github.io/static/js/main.001b64b7.js",
+    "index.html": "/test-conduit.github.io/index.html",
+    "main.c3cf32d8.css.map": "/test-conduit.github.io/static/css/main.c3cf32d8.css.map",
+    "main.001b64b7.js.map": "/test-conduit.github.io/static/js/main.001b64b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3cf32d8.css",
+    "static/js/main.001b64b7.js"
+  ]
+}
